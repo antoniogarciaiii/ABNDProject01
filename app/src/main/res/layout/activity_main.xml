@@ -4,15 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/banner" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/IcirrHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Illinois Coalition for Immmigrant and Refugee Rights"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/DescriptionHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="333dp" />
+
+            <TextView
+                android:id="@+id/DescriptionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/ServicesHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Services Offered"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="333dp" />
+
+            <TextView
+                android:id="@+id/ServicesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/ContactHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Information"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="333dp" />
+
+            <TextView
+                android:id="@+id/MailingAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏢: 228 S. Wabash Ave., Ste. 8, Chicago, IL XXXXX" />
+
+            <TextView
+                android:id="@+id/EmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📧: Contact@icirr.org" />
+
+            <TextView
+                android:id="@+id/emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📱: (312) xxx-xxxx" />
+
+            <TextView
+                android:id="@+id/HoursOfOperation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🕐: Monday - Friday: 9 - 5 pm CST" />
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
