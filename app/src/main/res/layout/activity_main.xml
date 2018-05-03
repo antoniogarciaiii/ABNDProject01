@@ -34,14 +34,14 @@
                 android:id="@+id/IcirrHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Illinois Coalition for Immmigrant and Refugee Rights"
+                android:text="@string/OrgName"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <TextView
                 android:id="@+id/DescriptionHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Description"
+                android:text="@string/Description"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="333dp" />
@@ -80,7 +80,7 @@
                 android:id="@+id/MailingAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="🏢: 228 S. Wabash Ave., Ste. 8, Chicago, IL XXXXX" />
+                android:text="🏢: 228 S. Wabash Ave., Ste. 8, Chicago, IL 60604" />
 
             <TextView
                 android:id="@+id/EmailAddress"
