@@ -38,25 +38,10 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <TextView
-                android:id="@+id/DescriptionHeading"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/mission_statement_header"
-                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="333dp" />
-
-            <TextView
-                android:id="@+id/DescriptionText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/mission_statement" />
-
-            <TextView
                 android:id="@+id/ServicesHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Services Offered"
+                android:text="@string/about_us_header"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="333dp" />
@@ -65,7 +50,7 @@
                 android:id="@+id/ServicesText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/about_us" />
 
             <TextView
                 android:id="@+id/ContactHeading"
