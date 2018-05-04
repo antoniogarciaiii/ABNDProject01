@@ -50,7 +50,7 @@
                 android:id="@+id/DescriptionText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="string/description_text" />
 
             <TextView
                 android:id="@+id/ServicesHeading"
@@ -75,6 +75,12 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="333dp" />
+
+            <TextView
+                android:id="@+id/MailingAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/website" />
 
             <TextView
                 android:id="@+id/MailingAddress"

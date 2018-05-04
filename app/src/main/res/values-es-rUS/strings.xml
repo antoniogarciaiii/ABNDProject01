@@ -7,4 +7,6 @@
     <string name="phone">📱: (312) xxx-xxxx</string>
     <string name="hours">🕐: Lunes - Viernes: 9 - 5 pm CST</string>
     <string name="contact">📧: Contact@icirr.org</string>
+    <string name="website">💻: http://www.icirr.org</string>
+    <string name="description_text">ICIRR se dedica a promover los derechos de los inmigrantes y refugiados a una participación plena e igualitaria en la vida cívica, cultural, social y política de nuestra sociedad diversa.</string>
 </resources>
