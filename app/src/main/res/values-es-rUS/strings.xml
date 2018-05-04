@@ -5,8 +5,9 @@
     <string name="description">Descripción</string>
     <string name="address">🏢: 228 S. Wabash Ave., Ste. 8, Chicago, IL 60604</string>
     <string name="phone">📱: (312) xxx-xxxx</string>
-    <string name="hours">🕐: Lunes - Viernes: 9 - 5 pm CST</string>
+    <string name="hours">🕐: Lunes - Viernes: 9 – 5 pm CST</string>
     <string name="contact">📧: Contact@icirr.org</string>
     <string name="website">💻: http://www.icirr.org</string>
-    <string name="description_text">ICIRR se dedica a promover los derechos de los inmigrantes y refugiados a una participación plena e igualitaria en la vida cívica, cultural, social y política de nuestra sociedad diversa.</string>
+    <string name="mission_statement_header">Declaración de la misión de ICIRR</string>
+    <string name="mission_statement">ICIRR se dedica a promover los derechos de los inmigrantes y refugiados a una participación plena e igualitaria en la vida cívica, cultural, social y política de nuestra sociedad diversa.</string>
 </resources>
