@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ABND Project 01</string>
-    <string name="OrgName">Coalición de Illinois para los Derechos de los Inmigrantes y los Refugiados</string>
-    <string name="Description">Descripción</string>
+    <string name="org_name">Coalición de Illinois para los Derechos de los Inmigrantes y los Refugiados</string>
+    <string name="description">Descripción</string>
+    <string name="address">🏢: 228 S. Wabash Ave., Ste. 8, Chicago, IL 60604</string>
+    <string name="phone">📱: (312) xxx-xxxx</string>
+    <string name="hours">🕐: Lunes - Viernes: 9 - 5 pm CST</string>
+    <string name="contact">📧: Contact@icirr.org</string>
 </resources>

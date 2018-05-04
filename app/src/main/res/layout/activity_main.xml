@@ -34,14 +34,14 @@
                 android:id="@+id/IcirrHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/OrgName"
+                android:text="@string/org_name"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <TextView
                 android:id="@+id/DescriptionHeading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Description"
+                android:text="@string/description"
                 android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="333dp" />
@@ -80,25 +80,25 @@
                 android:id="@+id/MailingAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="🏢: 228 S. Wabash Ave., Ste. 8, Chicago, IL 60604" />
+                android:text="@string/address" />
 
             <TextView
                 android:id="@+id/EmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="📧: Contact@icirr.org" />
+                android:text="@string/contact" />
 
             <TextView
                 android:id="@+id/emailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="📱: (312) xxx-xxxx" />
+                android:text="@string/phone" />
 
             <TextView
                 android:id="@+id/HoursOfOperation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="🕐: Monday - Friday: 9 - 5 pm CST" />
+                android:text="@string/hours" />
         </LinearLayout>
     </ScrollView>
 
